@@ -295,6 +295,9 @@ header .intro-text .intro-heading {
   line-height: 50px;
   margin-bottom: 25px;
 }
+.fa-angle-double-down{
+  padding-top: 10px;
+}
 
 @media (min-width: 768px) {
   header .intro-text {
@@ -644,7 +647,7 @@ section#contact {
 }
 
 section#contact .section-heading {
-  color: white;
+  color: #fed136;
 }
 
 section#contact .form-group {
@@ -654,6 +657,7 @@ section#contact .form-group {
 section#contact .form-group input,
 section#contact .form-group textarea {
   padding: 20px;
+  color: black !important;
 }
 
 section#contact .form-group input.form-control {
@@ -665,7 +669,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #fed136;
+  border-color: white;
   box-shadow: none;
 }
 
