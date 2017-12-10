@@ -2230,3 +2230,6 @@ img::-moz-selection {
 .top-buffer-lg{
     margin-top: 50px;
 }
+hr {
+    width: 50%;
+}
