@@ -1405,7 +1405,7 @@ tbody.collapse.in {
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    webkit-tap-highlight-color: #fed136
+    -webkit-tap-highlight-color: #fed136
 }
 
 .text-muted {
@@ -1661,7 +1661,7 @@ ul.social-buttons li a:hover {
 }
 
 header {
-    background-image: url(../img/header-bg.jpg);
+    background-image: url("../img/header-bg.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -2273,11 +2273,11 @@ hr {
 
 @font-face {
     font-family: 'droid_serifitalic';
-    src: url('DroidSerif-Italic-webfont.eot');
-    src: url('DroidSerif-Italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('DroidSerif-Italic-webfont.woff2') format('woff2'),
-         url('DroidSerif-Italic-webfont.woff') format('woff'),
-         url('DroidSerif-Italic-webfont.ttf') format('truetype');
+    src: url('../fonts/DroidSerif-Italic-webfont.eot');
+    src: url('../fonts/DroidSerif-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DroidSerif-Italic-webfont.woff2') format('woff2'),
+         url('../fonts/DroidSerif-Italic-webfont.woff') format('woff'),
+         url('../fonts/DroidSerif-Italic-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
