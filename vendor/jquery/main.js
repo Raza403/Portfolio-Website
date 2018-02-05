@@ -5305,10 +5305,7 @@ function handleLink(){
     body.innerHTML = `<h2>${captionH4[id]}</h2>
     <p class="text-muted item-intro">${subHeading[id]}</p>
     <img alt="${imgAlt[id]}" src="${imgSrc[id]}">
-        <p>
-            <strong>Have a
-                <a href=https://github.com/Raza403/Bootstrap4>look</a> at my Github repository of this project and all my Bootstrap work.</strong>
-            <p><button class="btn btn-primary" type=button data-dismiss=modal> Close </button></p>`;
+        <p><button class="btn btn-primary" type=button data-dismiss=modal> Close </button></p>`;
 }
 const imgSrc = ['./img/portfolio/ajax-typeAhead.png', './img/portfolio/CodePlayer.png', './img/portfolio/jsBSClock.png', './img/portfolio/CSSVariables.png', './img/portfolio/weather-app.png', './img/portfolio/JSdrumKit.png', './img/portfolio/konamiCode.png', './img/portfolio/holdShiftCheckboxes.png', './img/portfolio/randomQouteGenerator.png', './img/portfolio/flexJSImageGalerry.png', './img/portfolio/html5Canvas.png', './img/portfolio/Wikipedia-viewer.png', './img/portfolio/html5Video.png', './img/portfolio/twitchAPI.png', 'img/portfolio/gapi.png', './img/portfolio/reactionTimeGame.png', './img/portfolio/FCCportfolio.png', './img/portfolio/AttributePage.png'];
 const imgAlt = ['Image of type ahead project made by JS mainly', 'Image of live code player', 'Image of JavaScript and Bootstrap clock', 'Pic of CSS variable', 'Pic of local weather app', 'Image of JS drum kit', 'Pic of Konami code', 'Pic of hold shift checkBoxes', 'Pic of random quote generator', 'Image of JS flex image gallery', 'Pic of using HTML5 canvas', 'Pic of wikipedei viewer', 'Pic of custom HTML5 video player', 'Usage of twitch API', 'This image contains image of my website which uses…lopment, an example of full stack web development', 'Pic of reaction time game', 'Pic of portfolio site made for FCC project', 'Pic of attribute page to Abdul Sattar Edhi'];
