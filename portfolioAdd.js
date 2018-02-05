@@ -8,7 +8,7 @@ function addPortfolio() {
   const html = [];
   for (let i = 0; i < captionH4.length; i++) {
     html.push(`<div class="col-md-4 portfolio-item">
-                  <a href=#portfolioModal4 class=portfolio-link data-toggle=modal>
+                  <a id="${i}" class=portfolio-link data-toggle=modal>
                       <div class=portfolio-hover>
                           <div class=portfolio-hover-content>
                               <i class="fa fa-3x fa-plus"></i>
