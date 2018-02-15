@@ -1,4 +1,4 @@
 # The-web
-This is code of my website
-I nitially I am making it in HTML,CSS,Javascript and Bootstrap.
+This is code of my portfolio website
+Made it using HTML, CSS and JavaScript
 Hope you like it.
