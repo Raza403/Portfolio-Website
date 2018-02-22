@@ -1,3 +1,4 @@
+//Opens modal when image is clicked
 function handleLink() {
     const id = this.id;
     const subHeading = ["Data is fetched using ES6 from API, then matched, filtered and shown to the screen", "Made using jQuery, Gives live out put of HTML,CSS and javaScript typed in the tabs. Tabs can be Toggeled", "Made using JavaScript and styled using Bootstrap, time fetched from API.", "CSS variables varied using JavaScript", "Location based weather updates are fetched from weather API, Using jQuery. Weather can be toggeled in centigrades and fahrenheit. Background image changes according to temperature.", "Made using javaScript and Bootstrap. Keys animate and related sound is produced. Main functionality is done using JavaScript.", "Konami code is always watching keys pressed for certain pre program keys, Like cheats in the game.", "By pressing shift key and clicking all check boxes between two points are checked, Implemented using JavaScript", "Random quote fetched from API, then checked for tweet length, if passed renders on the screen. Can also be tweeted instantly using twitter API.", "Flexbox used to style columns, Columns grow and shrink, Words animate in and out by changing CSS using javaScript", "Used HTML5 canvas, color and font size varied using javaScript.", "Wiki pedia articles are fetched using API, and then displayed. Random article can also be fetched. Bootstrap is used for styling.", "Customized HTML5 video player using javaScript, Implemented click to toggle video play, Speed changing, Volume, Full screen etc.", "Channels data fetched from twitch.tv API, shown status. Can be sorted by online, offline & all", "News can be fetched using API based on location, state, city, zip etc. Implemented in python and flask.", "Click on random image appears randomly on the screen, and time taken will be shown. Made using jQuery.", "Clone of stripe.com Navbar is made using Vanilla JavaScript.", "Attribute Page is the first project for Free Code Camp, made it using HTML only."];
@@ -8,7 +9,7 @@ function handleLink() {
     <p class="item-intro">${subHeading[id]}<strong> Have a look at the <a href="${gitLinks[id]}" target="_blank" rel="noopener noreferrer"> Code
     <i class="fa fa-github"></i>
 </a></strong></p>
-    <img alt="${imgAlt[id]}" src="${imgSrc[id]}">
+    <img alt="${imgAlt[id]}" class="img-responsive" src="${imgSrc[id]}">
         <p><button class="btn btn-primary" type=button data-dismiss=modal> Close </button></p>`;
 }
 const imgSrc = ['./img/portfolio/ajax-typeAhead.png', './img/portfolio/CodePlayer.png', './img/portfolio/jsBSClock.png', './img/portfolio/CSSVariables.png', './img/portfolio/weather-app.png', './img/portfolio/JSdrumKit.png', './img/portfolio/konamiCode.png', './img/portfolio/holdShiftCheckboxes.png', './img/portfolio/randomQouteGenerator.png', './img/portfolio/flexJSImageGalerry.png', './img/portfolio/html5Canvas.png', './img/portfolio/Wikipedia-viewer.png', './img/portfolio/html5Video.png', './img/portfolio/twitchAPI.png', 'img/portfolio/gapi.png', './img/portfolio/reactionTimeGame.png', './img/portfolio/follow.png', './img/portfolio/AttributePage.png'];
@@ -27,11 +28,11 @@ function addPortfolio() {
                                 <i class="fa fa-3x fa-plus"></i>
                             </div>
                         </div>
-                        <img alt="${imgAlt[i]}" class=img-responsive src="${imgSrc[i]}">
+                        <img class="img-responsive" alt="${imgAlt[i]}" src="${imgSrc[i]}">
                     </a>
-                    <div class=portfolio-caption>
+                    <div class="portfolio-caption scroll">
                         <h4>${captionH4[i]}</h4>
-                        <p class=text-muted>${captionP[i]}</div>
+                        <p class="text-muted">${captionP[i]}</div>
                 </div>`);
     }
     jsPortfolio.innerHTML = html.join('');
